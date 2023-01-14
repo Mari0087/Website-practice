@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+#home,
+#guest{
+    margin-left: 30px;
+}
+
+#home-score,
+#guest-score{
+    width: 100px;
+    height: 80px;
+    background-color: #000000;
+    text-align: center;
+    font-size: 75px;
+    color: #F94F6D;
+    margin-left: 10px;
+
+}
+
+#add-score{
+    display: flex;
+    margin-top: 15px;
+}
+
+#add-score button{
+    padding: 3px 3px;
+    background-color: #1B244A;
+    border-color: #9AAAD8;
+    border:2px solid #9AAAD8;
+    border-radius: 7px;
+    font-size: 15px;
+    color: #9AAAD8;
+    margin-left: 10px;
+}
