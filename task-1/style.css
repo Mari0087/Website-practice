@@ -1,0 +1,98 @@
+body{
+    overflow-x: hidden;
+}
+
+#wave-two{
+    margin-top: -300px;
+}
+
+
+#overlay{
+    width: 100%;
+    height: 120vh;
+    background:linear-gradient(rgba(244, 244, 247, 0.473),rgba(12, 6, 59, 0.788));
+    position: absolute;
+}
+
+.y-video{
+    width: 140%;
+}
+
+#life{
+    width: 80vw;
+    height: 50vh;
+    margin-left: 100px;
+    margin-top: 180px;
+}
+
+#about-text{
+    width: 40%;
+}
+
+#about-img{
+    width: 50%;
+}
+
+#about-img > div > img{
+    border-radius: 20px;
+}
+
+#wave-4{
+    margin-top: 500px;
+}
+
+#bg-two-cont{
+    width: 500px;
+    margin-top: 210px;
+    margin-left: 730px;
+    background:linear-gradient(rgba(245, 245, 169, 0.654),rgba(245, 245, 169, 0.655));
+    border-radius: 30px;
+}
+
+#newsletter-input{
+    border-radius: 25px;
+}
+
+#table-login{
+    margin-top: 900px;
+}
+
+#login{
+    width: 50%;
+    
+}
+
+#login-div{
+    border-radius: 15px;
+    background-color: #3C405B;
+}
+
+#login-input > input,
+#login-input > textarea{
+    border-radius: 15px;
+}
+
+#Events{
+    background-color: #F4F1DE;
+    height: 660px;
+}
+
+#Events > div > h1{
+    margin-top: 20px;
+}
+
+#event-date{
+    background-color: #80B299;
+    width: 150px;
+    border-radius: 10px;
+    height: 120px;
+}
+
+.event-img > img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.event-cont > div > button{
+    height: 45px;
+}
