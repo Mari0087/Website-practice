@@ -1,0 +1,57 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+#box{
+    height: 100vh;
+    gap: 15%;
+}
+
+.circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:3px solid rgb(162, 162, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    background-color: white;
+    transition: border-color 2s;
+    transition-delay:1s ;
+}
+
+#c1{
+    border-color:blue ;
+}
+
+#buttons{
+    position:absolute;
+    top: 65%;
+    left: 44%;
+    display: flex;
+    gap: 60%;
+}
+
+#proess_line{
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color: blue;
+    top: 50%;
+    left: 29%;
+    z-index: 2;
+    transition: width 2s;
+}
+
+#proess_line2{
+    position: absolute;
+    width: 42%;
+    height: 4px;
+    background-color: rgb(162, 162, 165);
+    top: 50%;
+    left: 29%;
+    z-index: 1;
+    transition: width 2s;
+}

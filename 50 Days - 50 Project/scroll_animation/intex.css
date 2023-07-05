@@ -1,0 +1,33 @@
+body{
+    overflow-x: hidden;
+}
+
+#scrollingArea{
+    width: 100%;
+}
+
+#boxEl{
+    margin: auto;
+    width: 370px;
+}
+
+
+.box{
+    width: 300px;
+    height: 125px;
+    background: blue;
+    font-size: 30px;
+    color: #fff;
+    margin: 10px;
+    transform: translate(400%);
+    transition: 0.5s;
+}
+
+.box:nth-of-type(even){
+    transform: translate(-400%);
+}
+
+.box.show{
+    transform: translate(0);
+}
+

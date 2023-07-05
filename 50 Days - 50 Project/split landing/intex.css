@@ -1,0 +1,61 @@
+#ps5-img{
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+    transition: 1s ease-out;
+}
+
+#xbox-img{
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+    transition: 1s ease-out;
+}
+
+#xbox-diem{
+    width: 50vw;
+    height: 100vh;
+    background: rgb(3, 3, 3);
+    z-index: 3;
+    position: absolute;
+    opacity: 0.8;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: 1s ease-out;
+}
+
+#ps5-diem{
+    width: 50vw;
+    height: 100vh;
+    background: rgb(56, 95, 224);
+    z-index: 3;
+    position: absolute;
+    opacity: 0.6;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: 1s ease-out;
+}
+
+#buyButtonXBox{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    border-color: white;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#buyButtonPs5{
+    background-color: rgb(56, 95, 224);
+    color: white;
+    border-color: white;
+    margin-top: 30px;
+    margin-left: 30%;
+}

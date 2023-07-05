@@ -1,0 +1,27 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #705FF8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    width: 0px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+#search1{
+    transition: 0.5s;
+    border:white;
+    display: none;
+}
+
+#search3{
+    border: white;
+} 
+
