@@ -1,0 +1,41 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.button{
+    background-color: #7A1A75;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.circle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.5;
+    transform: translate(-50%, -50%) scale(0);
+    animation: scale 0.3s ease-in-out;
+}
+
+@keyframes scale{
+    to{
+        transform: translate(-50%, -50%) scale(3);
+    }
+}

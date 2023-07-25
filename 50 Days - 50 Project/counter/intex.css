@@ -1,0 +1,41 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-container{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(74, 67, 250);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.wave{
+    width: 3px;
+    height: 50%;
+    background-color: rgba(2, 2, 14, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-100%) rotate(0deg);
+    transform-origin: bottom center;
+    transition: transform 0.5s;
+}

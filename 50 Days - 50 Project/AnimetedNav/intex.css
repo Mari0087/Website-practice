@@ -1,0 +1,106 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom,
+        #fff 0%,
+        #fff 50%,
+        #2580ca 50%,
+        #2580ca 100%
+    );
+}
+
+nav.active{
+    width: 330px;
+}
+
+nav{
+    background-color: white;
+    padding: 10px;
+    width: 52px; 
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    border: 1px #000 solid;
+    border-radius: 3px;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+    justify-content: end;
+}
+
+nav.active ul{
+    display: flex;
+    position: relative;
+}
+
+nav ul{
+    display: none;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0 10px;
+    margin-left: -35px;
+    position: relative;
+    transition: display 0.6s;
+    opacity: 1;
+}
+
+nav ul li a{
+    margin: 0 10px;
+    color: #000;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #000;
+    border: #444;
+}
+
+button{
+    border: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:focus{
+    outline: 0;
+}
+
+nav.active button{
+    right: 0;
+}
+
+
+.line{
+    border: 1px #000 solid;
+    width: 25px;
+    position: absolute;
+    transform: rotate(0);
+    transition: transform 1s ease-in;
+}
+
+.line1{
+    margin-top: -5px;
+}
+
+.line2{
+    margin-top: 10px;
+}
+
+nav.active .line2{
+    transform: rotate(-495deg);
+    margin-top: 0;
+}
+
+nav.active .line1{
+    transform: rotate(495deg);
+    margin-top: 0;
+}
+
+
